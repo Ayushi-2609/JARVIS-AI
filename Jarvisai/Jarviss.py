@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")    
-            speak(f"Ma'am, the time is {strTime}")
+            speak("Ma'am", the time is {strTime}")
 
         elif 'email to ayushi' in query:
             try:
